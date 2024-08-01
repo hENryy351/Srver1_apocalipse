@@ -1,0 +1,29 @@
+
+["Config for Insomniac"]
+	#
+	#Disable Sleep? 
+	#Default:true
+	disable_sleep = true
+	#
+	#Allow sleep on nights when Phantoms can spawn and sleep is disabled?
+	#Do not set to true if you wish to sleep every night 
+	#Requires <disable_sleep> to be true. 
+	#Default:false
+	insomnia_sleep = false
+	#
+	#Disable Phantoms all-together? 
+	#Default:false
+	no_phantoms = false
+	#
+	#Disable the ability to set spawn?
+	#Default:false
+	no_set_spawn = false
+	#
+	#Moon phases which can't be slept during int[0-7].
+	#0=Full Moon and 4=New Moon
+	#Default:[]
+	moon_phase = []
+	#
+	#Basic debug, returns values for time since sleep, current moon phase int & value of 'disable_sleep'
+	debug = false
+
